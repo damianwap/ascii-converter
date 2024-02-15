@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="jquery.js"></script>
+    <title>ASCII Converter</title>
+  </head>
+  <body>
+    <div id="input-desimal">
+      <input type="text" id="input1" />
+      <input type="button" value="Submit" onclick="konversiDesimal()" />
+    </div>
+    <div id="result"></div>
+  </body>
+</html>
+
+<script>
+    function konversiDesimal(){
+
+    }
+    function konversiDesimal() {
+        let inputAngka = $('#input1').val()
+        $('#result').text(String.fromCharCode(inputAngka))
+    }
+</script>
